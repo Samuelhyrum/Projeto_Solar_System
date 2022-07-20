@@ -3,6 +3,7 @@ import Title from './Title';
 import planets from '../data/planets';
 import PlanetCard from './PlanetCard';
 import Missions from './Missions';
+import MissionCard from './MissionCard';
 
 class SolarSystem extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class SolarSystem extends React.Component {
         </div>
         <div>
           <Missions />
+          <MissionCard />
         </div>
       </section>
     );
