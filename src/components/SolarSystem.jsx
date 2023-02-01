@@ -13,9 +13,13 @@ class SolarSystem extends React.Component {
       />));
     return (
       <section>
-        <div data-testid="solar-system">
+        <div className='div1' data-testid="solar-system">
           <Title headline="Planetas" />
+          <br></br>
+          <div className='div3'>
+            {/* <br></br> */}
           {all}
+          </div>
         </div>
       </section>
     );
